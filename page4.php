@@ -1,6 +1,5 @@
 <?php
 session_start();
 
-$count = $_SESSION["pageThree"];
-echo "Количество посещений: " . $count;
+echo 'Количество посещений: ' . $_SESSION['pageThree']; 
 echo "<br><a href='index.php'>Назад</a>";
